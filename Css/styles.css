@@ -1,0 +1,69 @@
+body,
+html {
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    font-weight: 505;
+    font-size: 18px;
+    scroll-behavior: smooth;
+    text-align: center;
+}
+
+
+/* IF YOU  WANT THE PARALLAX EFFECT JUST SET THE BACLGROUND-ATTACHMENT TO FIXED AND IF YOU WANT IT NORMAL JUST SET IT TO SCROLL ITS THAT SIMLE... */
+
+
+/*Now to add properties that are same in all classes i will put it in one like this : */
+
+.para-homepage,
+.para-secondpage,
+.para-thirdpage,
+.para-lastpage {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.para-homepage {
+    background-image: url(../images/JAPAN.jpg);
+    height: 100%;
+}
+
+.para-secondpage {
+    background-image: url(../images/OSAKA.jpg);
+    height: 400px;
+}
+
+.para-thirdpage {
+    background-image: url(../images/KYOTO.jpg);
+    height: 350px;
+}
+
+.para-lastpage {
+    background-image: url(../images/JAPAN-LAST.jpg);
+    height: 450px;
+}
+
+
+/* NOW STYLING THE TEXT */
+
+.headings {
+    padding-top: 200px;
+    font-family: "Sawarabi Mincho", sans-serif;
+    letter-spacing: 8px;
+}
+
+.brief {
+    line-height: 2rem;
+    padding: 35px 80px;
+    background-color: black;
+    color: white;
+}
+
+.quote {
+    position: relative;
+    right: 120px;
+}
